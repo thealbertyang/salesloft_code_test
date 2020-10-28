@@ -15,6 +15,21 @@ export default async (req, res) => {
   }
 
   const json = await people.json();
+
+  //Only grab first name, last name, email and job title
+  const reducer = (acc, person) => {
+    acc.push({
+      first_name: person.first_name, 
+      last_name: person.last_name,
+      email_address: person.email_address,
+      title: person.title
+    })
+
+    return acc
+  }
+
+  const data = json.data.reduce(reducer, [])
+
   res.statusCode = 200;
-  res.json(json.data);
+  res.json(data);
 }

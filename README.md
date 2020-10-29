@@ -1,30 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SalesLoft Code Assesment
 
-## Getting Started
+Hi,
 
-First, run the development server:
+Thanks for considering me for the Senior Software Engineer role at SalesLoft. 
 
-```bash
-npm run dev
-# or
-yarn dev
+If you have any questions feel free to email: [thealbertyang@gmail.com](mailto:thealbertyang@gmail)
+
+
+## Demo
+
+You can test the demo of the app deployed to Vercel: [https://salesloft-code-test.vercel.app/](https://salesloft-code-test.vercel.app/)
+
+
+## Setup
+
+To get setup, run these commands:
+ 
+- Install dependencies:
+
+```sh
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Run it locally
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+yarn run dev
+```
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- React
+- Styled Components
+- Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Requirements Met
 
-## Deploy on Vercel
+- ✅ Show a list of People records that are available via the API.  Display each Person’s name, email address, and job title.
+- ✅ Create a button that, when clicked, displays a frequency count of all the unique characters in all the email addresses of all the People you have access to, sorted by frequency count (the count below).
+- ✅ Create a 2nd button that would show us a list of suggested possible duplicate People.  A human can tell that “benoliv@salesloft.com” and “benolive@salesloft.com” are very likely the same person with just one of the email addresses having a typo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## More
+
+You can find out more details about me at [https://thealbertyang.com](https://thealbertyang.com)

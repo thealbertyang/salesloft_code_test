@@ -9,7 +9,9 @@ If you have any questions feel free to email: [thealbertyang@gmail.com](mailto:t
 
 ## Demo
 
-You can test the demo of the app deployed to Vercel: [https://salesloft-code-test.vercel.app/](https://salesloft-code-test.vercel.app/)
+You can test the demo of the app deployed to Vercel: 
+- Demo - [https://salesloft-code-test.vercel.app/](https://salesloft-code-test.vercel.app/)
+- People API - [https://salesloft-code-test.vercel.app/api/people](https://salesloft-code-test.vercel.app/api/people)
 
 
 ## Setup
